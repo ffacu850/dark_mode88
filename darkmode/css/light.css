@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  background: #222;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.div {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div__container {
+  position: relative;
+  left: 40px;
+  width: 70px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  background: #f7df1e;
+  font-size: 30px;
+  color: #f8a011;
+}
+
+.div__container .div__button {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-style: none;
+  background: transparent;
+}
+
+.div__container .fas.fa-sun {
+  position: absolute;
+  padding: 19px;
+}
+
+.div__container .fas.fas.fa-moon {
+  visibility: hidden;
+}
+
+.div__container:hover {
+  position: absolute;
+  left: 40px;
+  width: 70px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  background: #222;
+}
+/*# sourceMappingURL=light.css.map */
